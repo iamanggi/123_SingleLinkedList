@@ -105,3 +105,18 @@ void traverse() {
 		}
 	}
 }
+
+void searchData() {
+	if (listEmpty()) {
+		cout << "List Kosong" << endl;
+		system("pause");
+		system("cls");
+		return;
+	}
+	else {
+		int nim;
+		cout << "Masukan NIM: ";
+		cin >> nim;
+		Node* currentNode = START;
+	}
+}
